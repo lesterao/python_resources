@@ -4,7 +4,7 @@ import shutil
 import subprocess
 networkPath = "\\server\share"
 user="lester"
-password="xxxxx"
+password="xxxxxx"
 
 winCMD = 'NET USE ' + networkPath + ' /User:' + user + ' ' + password
 subprocess.Popen(winCMD, stdout=subprocess.PIPE, shell=True)
