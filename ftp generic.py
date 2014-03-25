@@ -6,7 +6,7 @@ userx=raw_input("Usuario:")
 passwd=raw_input("Password:")
 ftp = FTP(elftp,userx,passwd)
 print ftp.getwelcome()
-print "Conectado !"
+print "Conectado!!!"
 while 1:
     print "v. - Ver archivos y directorios."
     print "a. - Acceder a un Directorio."
