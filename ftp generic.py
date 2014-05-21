@@ -1,4 +1,5 @@
 from ftplib import FTP
+
 def writeline(line):
     file.write(line + "\n")
 elftp=raw_input("FTP:")
